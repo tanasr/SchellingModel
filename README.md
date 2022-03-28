@@ -1,6 +1,7 @@
 # Implementation of an Agent-Based Model: The Schelling Model
 ## Schelling's model of segregation
 
+Assignment at USI Lugano:
 Implementation based on the seggregation model by Thomas C. Schelling, 1971, published in the Journal of Mathematical Sociology, Vol. 1, pp 143-186. 
 
 ### Initialisation
