@@ -1,0 +1,2 @@
+# SchellingModel
+Schelling segregation model
