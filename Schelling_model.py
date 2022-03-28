@@ -511,10 +511,7 @@ class SchellingABM:
         # plt.show()
     
         
-        
-        
-       
-if __name__ == "__main__":
+def main():
     # SchellingABM(grid_width, grid_height, empty_ratio, nr_races, neighbours, iterations):
     
     #set parameters
@@ -561,4 +558,7 @@ if __name__ == "__main__":
                                   update_order=update_order, 
                                   moving_order=moving_order)
     plt.show()
-                                  
+                  
+       
+if __name__ == "__main__":
+    main()
