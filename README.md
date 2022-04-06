@@ -37,8 +37,8 @@ Those methods are then applied in another method called `move_agents(update_orde
 ### Running the simulation
 The method `run_simulation(update_order, moving_order, strat_switch)` runs the simulation until one of the stopping criteria are met. It will stop if there are no more unhappy agents to move, or if for five iterations the number of unhappy agents does not change, or if there is no more significant improvement and the simulation has converged. There is also a possibility to change the strategy of moving the agent mid-simulation. The second figure shows the final state of the agents and displays the seggregation clearly.
 
-![](plots/github1.png)
-![](plots/github2.png)
+![](plots/initial_state.png)
+![](plots/final_state.png)
 
 
 
