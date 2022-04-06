@@ -1,5 +1,11 @@
 #ignore all files
-*
+/*
 #except
 !.gitignore
 !Schelling_model.py
+!plots/
+
+#ignore everything within plots except two png
+plots/*
+!plots/initial_state.png
+!plots/final_state.png

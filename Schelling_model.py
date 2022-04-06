@@ -419,16 +419,16 @@ class SchellingABM:
         # Titles for each plot
         if state=='initial':
             title = str(
-            'Initial state of agents on a (%i x %i) grid \n nr. of races: %i, empty ratio: %.2f' 
+            'Initial state on a (%i x %i) grid \n nr. of races: %i, empty ratio: %.2f' 
                           % (self.width,self.height,self.nr_races,self.empty_ratio))
         elif state=='final':
             title = str(
-            'Updating: %s, movement: %s \n neighbours: %i, races: %i, final happiness: %.3f' 
+            'Update: %s, movement: %s \n neighb.: %i, races: %i, happiness: %.3f' 
             % (update_order,moving_order,self.neighbours,self.nr_races, hv[-1]))
         
         # Generate figure and customize
-        plt.rcParams['font.size'] = '14'
-        plt.figure(figsize=(7,6))
+        plt.rcParams['font.size'] = '11'
+        plt.figure(figsize=(4,3))
         plt.title(title)
         plt.tick_params(
             axis='x', which='both',

@@ -35,9 +35,10 @@ Given the coordinates of the unhappy agents, it is necessary to find where each 
 Those methods are then applied in another method called `move_agents(update_order, moving_order)` according to the flags `move_agent` and `update_order`. It will take the set of unhappy agents and find the empty cell and move these agents. After the move it will return the number of agents it moved to another cell, in order to keep track of the movements and hence of the convergence for each method.
 
 ### Running the simulation
-The method `run_simulation(update_order, moving_order, strat_switch)` runs the simulation until one of the stopping criteria are met. It will stop if there are no more unhappy agents to move, or if for five iterations the number of unhappy agents does not change, or if there is no more significant improvement and the simulation has converged. There is also a possibility to change the strategy of moving the agent mid-simulation. The second figure shows the final state of the agents and displays the seggregation clearly, where the last figure displays the development of the happiness.
+The method `run_simulation(update_order, moving_order, strat_switch)` runs the simulation until one of the stopping criteria are met. It will stop if there are no more unhappy agents to move, or if for five iterations the number of unhappy agents does not change, or if there is no more significant improvement and the simulation has converged. There is also a possibility to change the strategy of moving the agent mid-simulation. The second figure shows the final state of the agents and displays the seggregation clearly.
 
-
+![](plots/github1.png)
+![](plots/github2.png)
 
 
 
