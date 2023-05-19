@@ -1,8 +1,7 @@
 # Implementation of an Agent-Based Model: The Schelling Model
 ## Schelling's model of segregation
 
-Assignment at USI Lugano:
-Implementation based on the seggregation model by Thomas C. Schelling, 1971, published in the Journal of Mathematical Sociology, Vol. 1, pp 143-186. 
+Implementation based on the segregation model by Thomas C. Schelling, 1971, published in the Journal of Mathematical Sociology, Vol. 1, pp 143-186. 
 
 ### Initialisation
 To set-up the grid and distribute the agents, the main idea was to generate the grid on which the action will happen in form of a matrix, such that each agent within that grid is represented by a different number greater than zero, since zero is used to classify empty cells. The method `set_up_agents()` creates an individual 1d-array for each agent type, with length proportional to the ratio of the agents. Each agent is represented by a different number. 
